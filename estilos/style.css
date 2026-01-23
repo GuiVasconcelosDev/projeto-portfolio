@@ -41,7 +41,7 @@ body {
 }
 
 header {
-  background-color: var(--destaque);
+  background-color: #5f30b6;
   color: var(--texto);
   padding: 10px;
   display: flex;
@@ -95,14 +95,14 @@ section#ficha img.foto {
   overflow: hidden;
   border-radius: 50%;
   border: 5px solid var(--fundo-card);
-  outline: 5px solid var(--destaque);
+  outline: 5px solid #5f36bde0;
   display: block;
   margin: auto;
   margin-bottom: 15px;
 }
 
 section#ficha h1 {
-  color: var(--destaque);
+  color: #5f36bdad;
   margin: 15px 0px;
   font-size: 1.3em;
   text-align: left;
@@ -118,7 +118,7 @@ div#social {
 }
 
 div#social a {
-  color: var(--destaque);
+  color: #274eabf0;
   transition: color 0.5s;
 }
 
@@ -190,7 +190,7 @@ article {
 #formacao-container .curso:hover {
   border-left-width: 15px;
   cursor: pointer;
-  border-color: rgba(245, 77, 77, 0.881);
+  border-color:  #5f30b6ce;
 }
 
 #formacao-container .periodo {
@@ -214,6 +214,7 @@ article {
   display: flex;
   flex-direction: column;
   gap: 15px;
+  margin-top: 10px;
   background-color: var(--fundo-principal);
   padding: 10px;
   border-radius: 8px;
@@ -222,7 +223,7 @@ article {
 }
 
 #projeto-container .projeto:hover {
-  border-color: rgba(245, 77, 77, 0.881);
+  border-color: #5f30b6ce;
   border-left-width: 15px;
   cursor: pointer;
 }
@@ -251,6 +252,18 @@ footer a {
 footer a:hover {
   color: var(--destaque-inverso);
 }
+
+#cine {
+  text-decoration: none;
+  border: 1px solid #170a0a9f;
+  border-radius: 5px;
+  padding: 3px;
+  color: white;
+  background-color: black;
+  background-image: linear-gradient(to left, #dfff51c1, #61d7ffc7);
+}
+
+
 @media screen and (min-width: 768px) {
   main {
     grid-template-columns: auto 300px 1fr auto;
