@@ -237,7 +237,7 @@ article {
 }
 
 footer {
-  background-color: var(--destaque);
+  background-color: #5f30b6;
   color: var(--texto-inverso);
   text-align: center;
   padding: 15px;
@@ -250,7 +250,7 @@ footer a {
 }
 
 footer a:hover {
-  color: var(--destaque-inverso);
+  color: #328ff9d9;
 }
 
 #cine {
